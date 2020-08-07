@@ -52,7 +52,7 @@ RUN wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
 RUN ln -s \
   /usr/local/python/cv2/python-3.7/cv2.cpython-37m-x86_64-linux-gnu.so \
   /usr/local/lib/python3.7/site-packages/cv2.so
-#install tesseract from its source
+# install tesseract from its source
 RUN apt-get --fix-missing update && apt-get --fix-broken install && apt-get install -y poppler-utils && apt-get install -y tesseract-ocr && \
     apt-get install -y libtesseract-dev && apt-get install -y libleptonica-dev && ldconfig && apt install -y libsm6 libxext6 && apt install -y python-opencv
 

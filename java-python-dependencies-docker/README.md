@@ -2,4 +2,4 @@ For some Python libraries, such as Tabula-py, require Java as prerequisite becau
 
 1). Multi-stage build using OpenJDK image as base - See [java-python-multi-stage-build](https://github.com/liamsuma/laughing-telegram-docker-repo/tree/master/java-python-multi-stage-build)
 
-2). Build it from its source using 3rd parties repos - credit: https://github.com/rappdw/docker-java-python/blob/master/Dockerfile
+2). Build it from its source using 3rd parties repos - [Credit](https://github.com/rappdw/docker-java-python/blob/master/Dockerfile)
